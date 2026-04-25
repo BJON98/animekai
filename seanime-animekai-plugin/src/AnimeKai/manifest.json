@@ -1,0 +1,24 @@
+{
+  "id": "animekai-v2",
+  "name": "AnimeKai (Self-Contained)",
+  "description": "AnimeKai streaming provider with native encryption - no external dependencies",
+  "manifestURI": "",
+  "version": "2.0.0",
+  "author": "improved",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "payloadURI": "",
+  "userConfig": {
+    "requiresConfig": false,
+    "version": 1,
+    "fields": [
+      {
+        "name": "baseUrl",
+        "label": "Base URL",
+        "type": "text",
+        "default": "https://animekai.to"
+      }
+    ]
+  }
+}
